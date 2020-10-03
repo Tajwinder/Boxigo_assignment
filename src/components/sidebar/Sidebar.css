@@ -1,0 +1,9 @@
+.sidebar_row >svg{
+    color: black;
+    margin-right: 10px;
+}
+.sidebar_row{
+    margin:20px 0;
+    display: flex;
+    align-items: center;
+}

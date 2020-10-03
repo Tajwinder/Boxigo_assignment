@@ -1,0 +1,35 @@
+.room{
+    color: rgb(243, 89, 89);
+    background-color: rgb(228, 225, 225);
+    margin: 15px 0;
+    padding: 10px;
+    cursor: pointer;
+}
+.categories{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+}
+.item_name{
+    flex:0 0 150%;
+}
+.no-category{
+    display: flex;
+}
+.no-category >.item_name{
+    flex: 0 0 20%;
+}
+.qty{
+    background-color: rgb(243, 89, 89);
+    color: white;
+    border-radius: 50%;
+    padding: 1px 8px;
+    margin-left: 10px;
+}
+.arrowUp >svg{
+    color: black;
+}

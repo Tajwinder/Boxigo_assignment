@@ -1,0 +1,8 @@
+.home{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    padding: 50px ;
+}
+hr{
+    color: rgb(248, 245, 245);
+  }
